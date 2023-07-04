@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(../images/bg.png);
+    margin:15px;
+}
+
+
+#topo{
+    background: #dbcd87;
+    height: 15.5em;
+    min-height:250px;   
+    position: relative;
+    margin-bottom: 10px;
+    min-width: 900px;
+}
+
+#area-logo{
+    width: 100%;
+    background: url(../images/topo-imagem-principal2.png) no-repeat;
+    height: 250px;
+    top: 0;
+    left: 0;
+}
+
+#area-logo .img1 a{
+    text-decoration: none;
+    color: #aa963c;
+}
+
+#area-logo .img1{
+    text-indent: -5000px;
+    background: url(../images/logo.png) no-repeat left;
+    height: 66px;
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+
+#area-menu{
+    width: 450px;
+    background: url(../images/topo-imagem-lateral.png) no-repeat;
+    height: 250px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-left: 110px;
+}
+
+#area-menu .ar_sup{
+    width: 95%;
+    padding: 4px;
+}
+
+#area-menu .ar_sup hr{
+    width:100%;
+    border-color:#dbcd87;
+    margin: 2px 0;
+}
+
+#area-menu .ar_sup button{
+    border: none;
+    background-color: #aa963c;
+    color: #ede9cc;
+    padding: 5px;
+    position: relative;
+    margin-left: 22%;
+    letter-spacing: 0.5px;
+}
+
+#area-menu .ar_sup span{
+    color: #aa963c;
+    font-size: smaller;
+}
+
+#container #topo #area-menu .opcoes{
+    float: left;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+#container #topo #area-menu .opcoes a{
+    padding:6px;
+    line-height: 30px;
+    color: #aa963c;
+    
+}
+
+#container #topo #area-menu .opcoes a:hover{
+    background-color: #fdf6be;
+    border-radius: 2px;
+}
+
+#area-menu .img2{
+    height: 164px;
+    width: 226px;
+    background: url(../images/depoimento.png) no-repeat right;
+    text-indent: -5000px;
+    float:right;
+    margin-right: 15px;
+}
+
+#container .conteudo .principal{
+    width: 50%;
+    box-sizing: border-box;
+    background: #f8ecb1;
+    float: left;
+    padding: 30px;
+
+}
+
+
+#container .caixacont .titulo{
+    margin-bottom: 20px;
+    color: #aa963c;
+}
+
+#container .conteudo .secundario{
+    box-sizing: border-box;
+    width: 50%;
+    background: #c7c09c;
+    float: right;
+    padding: 30px;
+}
+
+#container .conteudo .secundario .noticia{
+    float: left;
+   
+}
+
+#container .conteudo .secundario .noticia .image{
+    width: 25%;
+    float: left;
+}
+
+#container .conteudo .secundario .noticia img{
+    width: 100%;
+}
+
+#container .conteudo .secundario .noticia .materia{
+    width: 70%;
+    float: right;
+}
+
+#container .conteudo .secundario li {
+    padding: 5px;
+}
+
+#container .conteudo .secundario .caixacont .titulo{
+    background: url(../images/ornamento.png) no-repeat right center;
+}
+
+#container .conteudo .secundario .caixacont ul li a{
+    color: black;
+}
+
+#container .conteudo .secundario .caixacont ul li:hover{
+    background-color: #fdf6be;
+    border-radius: 2px;
+}
+
+#container .conteudo .footer{
+    clear: both;
+}
