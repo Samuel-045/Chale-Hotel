@@ -174,12 +174,12 @@ a{
 }
 
 /*Formatação da página de reserva*/
-#PgRs .conteudo{
+#PgRs .conteudo,
+#PgCt .conteudo{
     background: #dbcd87;
-    margin: 30px 40px;
+    margin: 0px auto;
     padding: 30px;
     box-sizing: border-box;
-    letter-spacing: 2px;
 }
 
 #PgRs .conteudo .texto,
@@ -188,6 +188,7 @@ a{
 }
 
 #PgRs .conteudo form{
+    letter-spacing: 2px;
     background: #f8ecb1;
     border-radius: 4px;
     width: 50%;
