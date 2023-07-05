@@ -175,7 +175,7 @@ a{
 
 /*Formatação da página de reserva*/
 #PgRs .conteudo,
-#PgCt .conteudo{
+#PgCt .conteudo{ /* Código para organizar as demais páginas */
     background: #dbcd87;
     margin: 0px auto;
     padding: 30px;
@@ -233,3 +233,17 @@ a{
     display: flex;
     padding: 5px;
 }
+
+/*Formatação da página de contato*/
+#PgCt .conteudo .img{
+    width: 70%;
+    margin:0 auto;
+    text-align: center;
+}
+
+#PgCt .conteudo img{
+    width: 80%;
+    border-radius: 4px;
+    box-shadow: 2px 2px black;
+}
+
