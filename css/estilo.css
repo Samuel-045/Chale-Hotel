@@ -172,3 +172,63 @@ a{
 #container .conteudo .footer{
     clear: both;
 }
+
+/*Formatação da página de reserva*/
+#PgRs .conteudo{
+    background: #dbcd87;
+    margin: 30px 40px;
+    padding: 30px;
+    box-sizing: border-box;
+    letter-spacing: 2px;
+}
+
+#PgRs .conteudo .texto,
+#PgRs .conteudo form{
+    padding: 10px;
+}
+
+#PgRs .conteudo form{
+    background: #f8ecb1;
+    border-radius: 4px;
+    width: 50%;
+    margin: 0 auto;
+    box-shadow: 2px 2px black;
+}
+
+#PgRs .conteudo form .campo{
+    margin: 15px;
+}
+
+#PgRs .conteudo form input{
+    margin-left:15px;
+    font-size: medium;
+}
+
+#PgRs .conteudo form .campo .envio{
+    border: 2px solid black;
+    border-radius: 2px;
+    padding: 5px;
+    letter-spacing: 2px;
+}
+
+#PgRs .conteudo form .campo .envio:hover{
+    background: #aa963c;
+    color: white;
+    border: 2px solid white;
+    border-radius: 2px;
+    transition: all 0.7s;
+}
+
+#PgRs .conteudo form input{
+    display: flex;
+    flex-direction: row;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    border-bottom: 2px solid black;
+}
+
+#PgRs .conteudo form .rdBt{
+    display: flex;
+    padding: 5px;
+}
