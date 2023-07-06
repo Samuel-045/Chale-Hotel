@@ -173,20 +173,22 @@ a{
     clear: both;
 }
 
-/*Formatação da página de reserva*/
 #PgRs .conteudo,
-#PgCt .conteudo{ /* Código para organizar as demais páginas */
+#PgCt .conteudo,
+#PgGt .conteudo,
+#PgHt .conteudo{ /* Código para organizar as demais páginas */
     background: #dbcd87;
     margin: 0px auto;
     padding: 30px;
     box-sizing: border-box;
 }
 
-#PgRs .conteudo .texto,
+.conteudo .texto,
 #PgRs .conteudo form{
     padding: 10px;
 }
 
+/*Formatação da página de reserva*/
 #PgRs .conteudo form{
     letter-spacing: 2px;
     background: #f8ecb1;
@@ -234,16 +236,21 @@ a{
     padding: 5px;
 }
 
-/*Formatação da página de contato*/
-#PgCt .conteudo .img{
+/*Formatação das imagens das páginas*/
+#PgCt .conteudo .img,
+#PgGt .conteudo .img,
+#PgHt .conteudo .img{
     width: 70%;
     margin:0 auto;
     text-align: center;
 }
 
-#PgCt .conteudo img{
+#PgCt .conteudo img,
+#PgGt .conteudo img,
+#PgHt .conteudo img{
     width: 80%;
     border-radius: 4px;
     box-shadow: 2px 2px black;
+    margin:20px auto;
 }
 
