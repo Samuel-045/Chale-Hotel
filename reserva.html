@@ -71,37 +71,44 @@
                         
                         <div class="campo">
                             <label for="nome">Nome completo</label>
-                            <input type="text" name="nome" placeholder="Fulano de Tal" autocomplete="off">
+                            <input type="text" name="nome" placeholder="Fulano de Tal" autocomplete="off" required>
                         </div>
                         
                         <div class="campo">
                             <label for="idade">Idade</label>
-                            <input type="number" name="idade" placeholder="Sua idade" autocomplete="off">
+                            <input type="number" name="idade" placeholder="Idade" autocomplete="off" min="1" max="100" required>
                         </div>
     
                         <div class="campo">
                             <label for="rg">RG</label>
-                            <input type="text" name="rg" placeholder="###-###-###-##" autocomplete="off">
+                            <input type="text" name="rg" placeholder="###-###-###-##" autocomplete="off" required>
                         </div>
     
                         <div class="campo">
                             <label for="qntDias">Dias desejados</label>
-                            <input type="number" name="qntDias" placeholder="Dias" autocomplete="off">
+                            <input type="number" name="qntDias" placeholder="Dia(s)" autocomplete="off" min="1" max="20" required>
                         </div>
 
                         <div class="campo">
                             <label for="email">Email para contato</label>
-                            <input type="email" name="email" placeholder="Email">
+                            <input type="email" name="email" placeholder="Email" autocomplete="off" required>
                         </div>
 
                         <div class="campo">    
-                            <Label>Deseja adicionar mais pessoas?</Label>
-                            <div class="rdBt">
-                                <input type="radio" name="AdcPes" value="Sim" autocomplete="off">
-                                <label for="AdcPes">Sim</label>
-
-                                <input type="radio" name="AdcPes" value="Não" autocomplete="off">
-                                <label for="AdcPes">Não</label>
+                            <Label>Quantidade de pessoas</Label>
+                            <div class="qntdPessoas">
+                                
+                                <div class="qntdAdul">
+                                    <label for="NrAdul">Adultos (incluindo você)</label>
+                                    <input type="number" name="NrAdul" placeholder="Adultos" min="0" autocomplete="off" required>
+                                </div>
+                                
+                                <div class="qntdCrna">
+                                    <label for="NrCrna">Crianças</label>
+                                    <input type="number" name="NrCrna" placeholder="Crianças" min="0" autocomplete="off" required>
+                                </div>
+                                
+                                
                             </div>
                         </div>
     
