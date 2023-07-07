@@ -245,6 +245,12 @@ a{
     margin: 0 10px;
 }
 
+#PgRs .conteudo form .qntdPessoas input{
+    margin: 0 10px;
+    width: 60%;
+}
+
+
 /*Formatação das imagens das páginas*/
 .conteudo .image,
 #PgCt .conteudo .img,
